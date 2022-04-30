@@ -24,7 +24,7 @@
     color: #ff8e03
 }
 .up-text{
-    font-size: 30px;
+    font-size: 5px;
     font-family: MyriadPro, sans-serif,Tahoma,Arial;
     font-weight: bold;
     margin-bottom: 10px;
@@ -59,7 +59,7 @@ body {
                                                        text-decoration-thickness: auto;
                                                        width: 100%;
                                                        max-width: 640px;
-                                                       position: relative;
+
                                                        cursor: pointer;
                                                        transform: rotate(-2deg);
                                                        user-select: none;

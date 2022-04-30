@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cdda769-5ece-4f7f-b4f1-2c7b23203392" name="Changes" comment="add vk 2-2" />
+    <list default="true" id="2cdda769-5ece-4f7f-b4f1-2c7b23203392" name="Changes" comment="change fonts" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +61,7 @@
       <workItem from="1651357590688" duration="133000" />
       <workItem from="1651357733867" duration="168000" />
       <workItem from="1651357906275" duration="5000" />
-      <workItem from="1651357923418" duration="1636000" />
+      <workItem from="1651357923418" duration="1949000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1651358601128</created>
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651360275467</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="change fonts">
+      <created>1651360592220</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651360592220</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +113,7 @@
     <MESSAGE value="add vk" />
     <MESSAGE value="add vk 2" />
     <MESSAGE value="add vk 2-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add vk 2-2" />
+    <MESSAGE value="change fonts" />
+    <option name="LAST_COMMIT_MESSAGE" value="change fonts" />
   </component>
 </project>
