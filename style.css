@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'MyriadPro';
+    src: url("Myriad Pro.ttf");
+}
+.text{
+    font-size: 40px;
+
+}
+.info{
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+.main{
+    background-color: #24ffa9;
+    min-height: 100vh;
+    text-align: center;
+
+}
+.text-red{
+    color: #ff4202
+}
+.text-orange{
+    color: #ff8e03
+}
+.up-text{
+    font-size: 70px;
+    font-family: MyriadPro, sans-serif,Tahoma,Arial;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+body {
+    background: black;
+}
+
+
+
+
+
+                                                   .button-53 {
+                                                       margin-top: 50px;
+                                                       margin-bottom: 70px;
+                                                       background-color: #3DD1E7;
+                                                       border: 0 solid #E5E7EB;
+                                                       box-sizing: border-box;
+                                                       color: #000000;
+                                                       display: inline;
+                                                       font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+                                                       font-size: 2rem;
+                                                       font-weight: 700;
+                                                       justify-content: center;
+                                                       line-height: 4rem;
+                                                       padding: .75rem 1.65rem;
+                                                       position: relative;
+                                                       text-align: center;
+                                                       text-decoration: none #000000 solid;
+                                                       text-decoration-thickness: auto;
+                                                       width: 100%;
+                                                       max-width: 640px;
+                                                       position: relative;
+                                                       cursor: pointer;
+                                                       transform: rotate(-2deg);
+                                                       user-select: none;
+                                                       -webkit-user-select: none;
+                                                       touch-action: manipulation;
+                                                   }
+
+.button-53:focus {
+    outline: 0;
+}
+
+.button-53:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #000000;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+}
+
+.button-53:hover:after {
+    bottom: 2px;
+    left: 2px;
+}
+
+@media (min-width: 768px) {
+    .button-53 {
+        padding: .75rem 3rem;
+        font-size: 3rem;
+    }
+}
+
+.to_start{
+    background-color: #2bff03;
+}
+.to_stop{
+    background-color: #ff0d00;
+}
+
+
+
+.Animated_button {
+
+    -moz-animation: cycle 4s linear infinite;
+    -webkit-animation: cycle 4s linear infinite;
+
+}
+
+@-moz-keyframes cycle {
+    35% {transform: rotate(0) translate(0, 0);}
+    40% {transform: rotate(5deg) translate(0, -2px);}
+    45% {transform: rotate(-3deg) translate(0, -2px);}
+    50% {transform: rotate(5deg) translate(0, -2px);}
+    55% {transform: rotate(-3deg) translate(0, -2px);}
+    60% {transform: rotate(5deg) translate(0, -2px);}
+    65% {transform: rotate(-3deg) translate(0, -2px);}
+    70% {transform: rotate(0) translate(0, 0);}
+}
+
+@-webkit-keyframes cycle {
+    35% {transform: rotate(0) translate(0, 0);}
+    40% {transform: rotate(5deg) translate(0, -2px);}
+    45% {transform: rotate(-3deg) translate(0, -2px);}
+    50% {transform: rotate(5deg) translate(0, -2px);}
+    55% {transform: rotate(-3deg) translate(0, -2px);}
+    60% {transform: rotate(5deg) translate(0, -2px);}
+    65% {transform: rotate(-3deg) translate(0, -2px);}
+    70% {transform: rotate(0) translate(0, 0);}
+}
