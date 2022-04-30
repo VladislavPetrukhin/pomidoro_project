@@ -1,4 +1,3 @@
-bridge.send("VKWebAppInit");
 
 let start_button = document.querySelector(".start_button")
 let text = document.querySelector(".text")
