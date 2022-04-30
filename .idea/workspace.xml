@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cdda769-5ece-4f7f-b4f1-2c7b23203392" name="Changes" comment="change fonts" />
+    <list default="true" id="2cdda769-5ece-4f7f-b4f1-2c7b23203392" name="Changes" comment="change fonts">
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +63,7 @@
       <workItem from="1651357590688" duration="133000" />
       <workItem from="1651357733867" duration="168000" />
       <workItem from="1651357906275" duration="5000" />
-      <workItem from="1651357923418" duration="2394000" />
+      <workItem from="1651357923418" duration="2942000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1651358601128</created>
@@ -105,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651361045936</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change fonts">
+      <created>1651361236443</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651361236443</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

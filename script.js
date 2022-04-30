@@ -12,11 +12,7 @@ document.querySelector(".start_button").onclick = function (){
             start_button.textContent="Сброс"
             start_button.classList.add('to_stop')
             start_button.classList.remove('to_start','Animated_button')
-            Swal.fire(
-                'Цикл закончен!',
-                '',
-                'success'
-            )
+
             Check()
 
         }
