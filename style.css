@@ -151,7 +151,7 @@ body {
 
 .tomato_pulse{
 
-    animation: pulse 4s linear infinite;
+    animation: pulse 3s linear infinite;
 }
 
 @keyframes pulse {
@@ -166,4 +166,9 @@ body {
         transform: scale(0.95);
 
     }
+}
+
+.swal2-popup {
+    font-size: 0.5rem !important;
+    font-family: Georgia, serif;
 }
