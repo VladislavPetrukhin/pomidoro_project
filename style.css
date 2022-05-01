@@ -130,3 +130,20 @@ body {
     65% {transform: rotate(-3deg) translate(0, -2px);}
     70% {transform: rotate(0) translate(0, 0);}
 }
+
+
+.image {
+    animation: inimate__one 5s infinite;
+}
+
+@keyframes inimate__one {
+    0% {
+        transform:  skewY(4deg);
+    }
+    50% {
+        transform:  skewY(-4deg);
+    }
+    100% {
+        transform:  skewY(4deg);
+    }
+}
