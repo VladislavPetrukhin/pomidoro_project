@@ -6,6 +6,8 @@ let info = document.querySelector(".info")
 let interval25,interval5,interval30
 let number = 0
 
+let sound = new Audio('sound.mp3')
+
 
 document.querySelector(".start_button").onclick = function (){
         if (start_button.classList.contains('to_start')){
@@ -71,6 +73,7 @@ function Interval_work(){
         if (i>=1500000) {                                 //change to 1500000
             clearInterval(interval25)
             number++
+            sound.play()
             Relax()
         }
     },1000)
@@ -86,6 +89,7 @@ function Relax(){
         text.textContent="Осталось: " + Math.floor((300000-i)/60000) +" минут " + Math.floor((300000-i-Math.floor((300000-i)/60000)*60000)/1000) + " секунд"      //change to 300000
         if (i>=300000) {                                 //change to 300000
             clearInterval(interval5)
+            sound.play()
             Check()
         }
     },1000)}
@@ -96,6 +100,7 @@ function Relax(){
             text.textContent="Осталось: " + Math.floor((1800000-i)/60000) +" минут " + Math.floor((1800000-i-Math.floor((1800000-i)/60000)*60000)/1000) + " секунд"      //change to 1800000
             if (i>=1800000) {                                 //change to 1800000
                 clearInterval(interval30)
+                sound.play()
                 Check()
             }
         },1000)}
