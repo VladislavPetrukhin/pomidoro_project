@@ -130,7 +130,9 @@ body {
     65% {transform: rotate(-3deg) translate(0, -2px);}
     70% {transform: rotate(0) translate(0, 0);}
 }
-
+.tomato_step{
+    margin-top: 30px;
+}
 
 .tomato_move {
     animation: inimate__one 5s infinite;

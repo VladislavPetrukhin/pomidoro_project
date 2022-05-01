@@ -29,7 +29,7 @@ document.querySelector(".start_button").onclick = function (){
             start_button.classList.add('to_stop')
             start_button.classList.remove('to_start','Animated_button')
             tomato.classList.remove('tomato_move')
-            tomato.classList.add('tomato_pulse')
+            tomato.classList.add('tomato_pulse','tomato_step')
 
             Check()
 
@@ -43,7 +43,7 @@ document.querySelector(".start_button").onclick = function (){
             start_button.classList.add('to_start','Animated_button')
             start_button.classList.remove('to_stop')
             text.textContent="Нажмите на кнопку, чтобы начать"
-            tomato.classList.remove('tomato_pulse')
+            tomato.classList.remove('tomato_pulse','tomato_step')
             tomato.classList.add('tomato_move')
             info.innerHTML="Один помидор = <span class=\"text-red\">25</span> минут + <span class=\"text-red\">5</span> минут отдых + <span class=\"text-red\">25</span> минут + <span class=\"text-red\">5</span> минут отдых"
         }
@@ -74,7 +74,7 @@ function Check(){
             start_button.classList.add('to_start','Animated_button')
             start_button.classList.remove('to_stop')
             text.textContent = "Нажмите на кнопку, чтобы начать"
-            tomato.classList.remove('tomato_pulse')
+            tomato.classList.remove('tomato_pulse','tomato_step')
             tomato.classList.add('tomato_move')
             Swal.fire(
                 'Цикл закончен!',
