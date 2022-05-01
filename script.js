@@ -22,6 +22,7 @@ document.querySelector(".start_button").onclick = function (){
             clearInterval(interval25)
             clearInterval(interval5)
             clearInterval(interval30)
+            number = 0
             start_button.textContent="Старт"
             start_button.classList.add('to_start','Animated_button')
             start_button.classList.remove('to_stop')
@@ -50,6 +51,7 @@ function Check(){
             info.innerHTML="Сейчас выполняется <span class=\"text-orange\">вторая</span> половина <span class=\"text-orange\">второго</span> помидора"
             break
         case 4:
+            number = 0
             start_button.textContent = "Старт"
             start_button.classList.add('to_start')
             start_button.classList.remove('to_stop')
@@ -66,11 +68,11 @@ function Check(){
 
 function Interval_work(){
     let i=0
-    text.textContent="Осталось: 25 минут"        //change to 1500000
+    text.textContent="Осталось: 25 минут"
     interval25 = setInterval(() => {
         i+=1000
         text.textContent="Осталось: " + Math.floor((1500000-i)/60000) +" минут " + Math.floor((1500000-i-Math.floor((1500000-i)/60000)*60000)/1000) + " секунд"     //change to 1500000
-        if (i>=1500000) {                                 //change to 1500000
+        if (i>=7000) {                                 //change to 1500000
             clearInterval(interval25)
             number++
             sound.play()
@@ -87,7 +89,7 @@ function Relax(){
         i+=1000
         info.textContent="Сейчас короткий отдых"
         text.textContent="Осталось: " + Math.floor((300000-i)/60000) +" минут " + Math.floor((300000-i-Math.floor((300000-i)/60000)*60000)/1000) + " секунд"      //change to 300000
-        if (i>=300000) {                                 //change to 300000
+        if (i>=3000) {                                 //change to 300000
             clearInterval(interval5)
             sound.play()
             Check()
@@ -98,7 +100,7 @@ function Relax(){
         interval30 = setInterval(() => {
             i+=1000
             text.textContent="Осталось: " + Math.floor((1800000-i)/60000) +" минут " + Math.floor((1800000-i-Math.floor((1800000-i)/60000)*60000)/1000) + " секунд"      //change to 1800000
-            if (i>=1800000) {                                 //change to 1800000
+            if (i>=5000) {                                 //change to 1800000
                 clearInterval(interval30)
                 sound.play()
                 Check()
