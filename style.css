@@ -132,7 +132,7 @@ body {
 }
 
 
-.image {
+.tomato_move {
     animation: inimate__one 5s infinite;
 }
 
@@ -145,5 +145,25 @@ body {
     }
     100% {
         transform:  skewY(4deg);
+    }
+}
+
+
+.tomato_pulse{
+
+    animation: pulse 4s linear infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+
+    }
+    50% {
+        transform:  scale(1.05);
+    }
+    100% {
+        transform: scale(0.95);
+
     }
 }
