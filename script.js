@@ -2,11 +2,24 @@
 let start_button = document.querySelector(".start_button")
 let text = document.querySelector(".text")
 let info = document.querySelector(".info")
+let about = document.querySelector(".fa-info-circle")
 
 let interval25,interval5,interval30
 let number = 0
 
 let sound = new Audio('sound.mp3')
+
+about.onclick = function (){
+    Swal.fire({
+        title: 'Метод помидора - техника управления временем, позволяющая использовать его более эффективно. Один помидор состоит из разных промежутков времени для работы и отдыха. После каждого второго помидора требуется более длинный отдых',
+        showClass: {
+            popup: 'animate__animated animate__fadeInDown'
+        },
+        hideClass: {
+            popup: 'animate__animated animate__fadeOutUp'
+        }
+    })
+}
 
 
 document.querySelector(".start_button").onclick = function (){
